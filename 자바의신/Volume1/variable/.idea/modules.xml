@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ObjectOrientedLanguage.iml" filepath="$PROJECT_DIR$/ObjectOrientedLanguage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variable.iml" filepath="$PROJECT_DIR$/Variable.iml" />
     </modules>
   </component>
 </project>

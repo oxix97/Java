@@ -1,11 +1,9 @@
-import java.util.*;
 public class OperatorClass {
+    public static String operator (int point) {
+        return point >= 80 ? "Pass" : "Nonpass";
+    }
     public static void main(String[] args) {
-        byte a = 127;
-        byte b = 1;
-
-        System.out.println(~a);
-        System.out.println(~b);
-
+        System.out.println(operator(85));
+        System.out.println(operator(75));
     }
 }

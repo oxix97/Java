@@ -7,4 +7,4 @@
  - [chapter1 -> 변수](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/variable/src/변수.md)
     - [변수 직접해봅시다](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/Profile.java)
  - [chapter1 -> 연산자](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Operator/src/연산자.md)
-    - []()
+    - [연산자_직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Operator/src/OperatorClass.java)

@@ -1,4 +1,22 @@
 public class TESTME {
+
+    public static void onlyIF(int num){
+        if(num > 5) System.out.println("only");
+        if(num > 3) System.out.println("only");
+    }
+
+    public static void elseIF(int num){
+        if(num > 5) System.out.println("else");
+        else if(num > 3) System.out.println("else");
+    }
+
+    public static void ifME(int point){
+        if(point > 90) System.out.println("A");
+        else if(point > 80) System.out.println("B");
+        else if(point > 70) System.out.println("C");
+        else System.out.println("F");
+    }
+
     public static void switchME(int month){
         switch(month){
             case 1:
@@ -20,13 +38,38 @@ public class TESTME {
                 System.out.println("Invalid value");
         }
     }
+
     public static void whileME() {
         int num = 1;
         while(num<=12){
             switchME(num++);
         }
     }
+
+    public static void continueME() {
+        int num = 0;
+        while(++num <=12){
+            if(num % 2 == 0) continue;
+            switchME(num);
+        }
+    }
+
+    public static void breakME() {
+        int num = 1;
+        while(num <= 12){
+            if (num > 7) break;
+            switchME(num++);
+        }
+    }
+
+    public static void forME(){
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+        System.out.println("1 to 10 = " + sum);
+    }
     public static void main(String[] args) {
-        whileME();
+        forME();
     }
 }

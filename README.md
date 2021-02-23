@@ -12,4 +12,5 @@
     - [조건 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Condition/src/InterestManager.java) <br><br>
  - [chapter1 -> 배열](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Array/src/배열.md)
     - [배열 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Array/src/ManageHeight.java) <br><br>
-   
+ - [chapter1 -> 참조자료형](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/)
+    - [참조자료형 -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/)

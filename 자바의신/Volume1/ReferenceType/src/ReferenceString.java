@@ -1,27 +1,18 @@
 public class ReferenceString {
-
-    public void print(int data) {
-
+    String name;
+    public ReferenceString(){};
+    public ReferenceString(String name) {
+        this.name = name;
     }
+    public void printName(){
+        ReferenceString reference1 = new ReferenceString("chan");
+        System.out.println(reference1.name);
 
-    public void print(String data) {
-
+        ReferenceString reference2 = new ReferenceString("oxix");
+        System.out.println(reference1.name);
     }
-
-    public void print(int iData, String sData) {
-
-    }
-
-    public void print(String sData, int iData) {
-
-    }
-
-    public void print(long data) {
-
-    }
-
     public static void main(String[] args) {
         ReferenceString reference = new ReferenceString();
-
+        reference.printName();
     }
 }

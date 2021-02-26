@@ -7,6 +7,10 @@ public class Parent {
         System.out.println("InheritanceParent Constructor");
     }
 
+    public Parent() {
+
+    }
+
     public void printName() {
         System.out.println("Parent printName()");
     }

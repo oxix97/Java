@@ -2,7 +2,9 @@ public class InheritanceCasting {
     public static void main(String[] args) {
         InheritanceCasting ic = new InheritanceCasting();
         //ic.objectCasting();
-        ic.objectCastingArray();
+        //ic.objectCastingArray();
+
+        ic.callPrintNames();
     }
 
     public void objectCasting() {
@@ -29,5 +31,13 @@ public class InheritanceCasting {
             }else
                 System.out.println("ParentCasting");
         }
+    }
+
+    public void callPrintNames(){
+        Parent parent1 = new Parent();
+        Parent parent2 = new Child();
+
+        parent1.printName();
+        parent2.printName();
     }
 }

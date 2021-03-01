@@ -53,5 +53,7 @@ public class ManageStudent{
 
         if(student1.equals(student2)) System.out.println("Equals");
         else System.out.println("NotEquals");
+
+
     }
 }

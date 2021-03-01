@@ -33,7 +33,7 @@ public class MemberDTO {
     }
     public static void main(String[] args) {
         MemberDTO dto1 = new MemberDTO("Lee");
-        MemberDTO dto2 = new MemberDTO("Le");
+        MemberDTO dto2 = new MemberDTO("Lee");
 
         if (dto1.equals(dto2)) {
             System.out.println("true");

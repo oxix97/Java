@@ -190,7 +190,7 @@ public boolean equals(Object obj) {
     if(name == null){
         return dto.name.equals(((MemberDTO) obj).name);
     }
-    else return name.equals(((MemberDTO) obj).name);
+    else return name.equals(((MemberDTO) ob).name);
 
     return true;
 }
@@ -202,4 +202,3 @@ API 문서에서 요구하는 equals () 메소드 오버라이딩 할 때에 반
 > - 타동적 : null 이 아닌 x,y,z 가 있을 경우 x.equals(y) , y.equals(z) 모두 true 인 경우 x.equals(z) 역시 true 값을 반환해야 한다.
 > - 일관 : null 이 아닌 x,y가 있는 경우 객체가 변경되지 않은 상황에서는 몇 번을 호출하더라도 x.equals(y)의 값은 항상 동일해야한다.
 > - null 과의 비교 : null이 아닌 x 라는 객체의 x.equals(null) 결과는 항상 false 여야 한다.
-

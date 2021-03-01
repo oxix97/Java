@@ -202,3 +202,14 @@ API 문서에서 요구하는 equals () 메소드 오버라이딩 할 때에 반
 > - 타동적 : null 이 아닌 x,y,z 가 있을 경우 x.equals(y) , y.equals(z) 모두 true 인 경우 x.equals(z) 역시 true 값을 반환해야 한다.
 > - 일관 : null 이 아닌 x,y가 있는 경우 객체가 변경되지 않은 상황에서는 몇 번을 호출하더라도 x.equals(y)의 값은 항상 동일해야한다.
 > - null 과의 비교 : null이 아닌 x 라는 객체의 x.equals(null) 결과는 항상 false 여야 한다.
+
+
+### Question
+
+**Q1.** String a1  = "a" , String a2 = "a" 에서 a1 == a2 가 true 나오는 이유는?
+
+**A1.** 변수 a1, a2 는 stack 메모리? 에 각각 쌓이지만 a1,a2의 값이 같은 경우에는 같은 Heap 메모리?에 저장된다고 한다.
+
+**Q2.** equals와 hashCode 관계
+
+**A2.** equals 메소드를 오버라이딩 해서 값이 같아도 hashCode 값은 서로 다르기 때문에 hashCode() 역시 오버라이딩해서 주소 값도 같게 해야한다.

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187cb661-cde4-4b61-8a20-7103c78abd99" name="Default Changelist" comment="Object">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ManageStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManageStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Object클래스.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object클래스.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,14 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberDTO">
-    <configuration name="InheritanceObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InheritanceObject" />
-      <module name="ObjectOrientedLanguage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ManageStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManageStudent" />
       <module name="ObjectOrientedLanguage" />
@@ -82,6 +74,13 @@
     </configuration>
     <configuration name="MemerDTO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MemerDTO" />
+      <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ObjectOrientedLanguage" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MemberDTO" />
         <item itemvalue="Application.ManageStudent" />
         <item itemvalue="Application.MemerDTO" />
         <item itemvalue="Application.ToString" />
-        <item itemvalue="Application.InheritanceObject" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +124,7 @@
       <updated>1613599807028</updated>
       <workItem from="1613599808269" duration="2630000" />
       <workItem from="1613721257260" duration="168000" />
-      <workItem from="1614599736460" duration="10169000" />
+      <workItem from="1614599736460" duration="12899000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1613599925793</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614607859239</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Object">
+      <created>1614611437960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614611437960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

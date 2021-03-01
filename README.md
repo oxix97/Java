@@ -7,7 +7,7 @@
    
     
  - [chapter1 -> 변수](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/variable/src/변수.md)
-    - [변수 직접해봅시다](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/Profile.java)
+    - [변수 직접해봅시다](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/variable/src/ProfilePrint.java)
    
    
  - [chapter1 -> 연산자](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Operator/src/연산자.md)
@@ -35,3 +35,7 @@
 
  - [chapter1 -> API](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/API/src/Api.md)
     - [API -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/API/src/BigDecimal.md)
+   
+   
+- [chapter1 -> Object](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/Object클래스.md)
+   - [Object -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/ManageStudent.java)

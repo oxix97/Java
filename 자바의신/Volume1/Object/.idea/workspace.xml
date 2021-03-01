@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="187cb661-cde4-4b61-8a20-7103c78abd99" name="Default Changelist" comment="변수" />
+    <list default="true" id="187cb661-cde4-4b61-8a20-7103c78abd99" name="Default Changelist" comment="변수">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManageStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object클래스.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -52,17 +60,60 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Profile" />
+  <component name="RunManager" selected="Application.MemberDTO">
+    <configuration name="InheritanceObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InheritanceObject" />
       <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ManageStudent" />
+      <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberDTO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemberDTO" />
+      <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemerDTO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemerDTO" />
+      <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToString" />
+      <module name="ObjectOrientedLanguage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Profile" />
+        <item itemvalue="Application.MemberDTO" />
+        <item itemvalue="Application.ManageStudent" />
+        <item itemvalue="Application.MemerDTO" />
+        <item itemvalue="Application.ToString" />
+        <item itemvalue="Application.InheritanceObject" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +127,7 @@
       <updated>1613599807028</updated>
       <workItem from="1613599808269" duration="2630000" />
       <workItem from="1613721257260" duration="168000" />
+      <workItem from="1614599736460" duration="8045000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1613599925793</created>

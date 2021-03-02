@@ -39,3 +39,7 @@
    
 - [chapter1 -> Object](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/Object클래스.md)
    - [Object -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Object/src/ManageStudent.java)
+   
+   
+- [chapter1 -> Interface](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Interface_abstract/src/Interface.md)
+   - [Interface -> 직접해봅시다.](https://github.com/oxix97/Java/tree/master/자바의신/Volume1/Interface_abstract/src)

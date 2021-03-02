@@ -89,17 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
@@ -121,6 +110,7 @@
       <workItem from="1613599808269" duration="2630000" />
       <workItem from="1613721257260" duration="168000" />
       <workItem from="1614599736460" duration="13257000" />
+      <workItem from="1614614884061" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1613599925793</created>
@@ -206,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614614431551</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="README">
+      <created>1614614890070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614614890070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +228,7 @@
     <MESSAGE value="객체란??" />
     <MESSAGE value="변수" />
     <MESSAGE value="Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object" />
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
 </project>

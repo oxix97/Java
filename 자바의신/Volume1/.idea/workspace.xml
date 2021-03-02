@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dacbfbf-8f6c-4b32-8acf-fbacfb0afd1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java_Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/객체/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter1/객채란?.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1/Chapter1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface_abstract/src/Interface.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface_abstract/src/ManageStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface_abstract/src/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface_abstract/src/MemberManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Array.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Condition/Condition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Condition/Condition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Object/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operator/Operator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Operator/Operator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package/Package.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Package/Package.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReferenceType/ReferenceType.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReferenceType/ReferenceType.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variable/Variable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/variable/Variable.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +44,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interface_abstract/src" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Interface_abstract/src" />
+      <recent name="$PROJECT_DIR$/Interface/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/객체" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +66,8 @@
       <updated>1613572469520</updated>
       <workItem from="1613572470660" duration="98000" />
       <workItem from="1613599330281" duration="472000" />
+      <workItem from="1614691389784" duration="219000" />
+      <workItem from="1614692328082" duration="33000" />
     </task>
     <servers />
   </component>

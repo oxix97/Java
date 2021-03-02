@@ -218,5 +218,86 @@ name : LEE phone: null Email null
 하지만, 객체 안의 내용은 final 예약어를 사용한 것이 없기 때문에 해당 클래스가 final 이라고 해서 그 안에 있는 인스턴스 변수나 클래스 변수가 final 은 아니다.
 
 ---
+### enum
 
+final 로 기본 자료형의 값을 고정 시킬 수 있었다. 
+이걸 보통 상수라고 말하는데 class 라고 선언하는 부분에 enum 이라고 선언하면 해당 객체는 상수의 집합이라는 것을 명시적을 나타낸다. <br>
+enum 은 셈 , 계산 , 열거 , 목록 , 일람표 라는 영어 단어의 앞부분만 따서 만들어진 예약어로 만
+어떻게 보면 타입이지만 클래스의 일종이다. 예를들면 다음과 같다.
+
+~~~java
+public enum OverTimeValues {
+    THREE_HOURS,
+    FIVE_HOURS,
+    WEEKEND_FOUR_HOUR,
+    WEEKEND,EIGHT_HOUR;
+}
+~~~
+
+enum 클래스에 있는 상수들은 선언만 해면 된다. 값을 지정할 필요도 없고 , 별도로 타입을 지정 할 필요 없다. <br>
+그냥 해당 상수의 이름만 선언하고 콤마로 구분하여 나열하면 된다. 
+
+OverTimeValues 파일의 확장자 역시 추상클래스와 동일하게 .java 이며 , 컴파일한 파일의 확장자 모두 .class 다.
+
+예제
+~~~java
+public class OverTimeManager {
+    public int getOverTimeAmount(OverTimeValues values) {
+        int amount = 0;
+        System.out.println(values);
+
+        switch (values) {
+            case THREE_HOURS: amount = 18000; break;
+            case FIVE_HOURS: amount = 30000; break;
+            case WEEKEND_FOUR_HOUR: amount = 40000; break;
+            case WEEKEND_EIGHT_HOUR: amount = 60000; break;
+        }
+        return amount;
+    }
+
+    public static void main(String[] args) {
+        OverTimeManager manager = new OverTimeManager();
+        int myAmount = manager.getOverTimeAmount(OverTimeValues.THREE_HOURS);
+        System.out.println(myAmount);
+    }
+}
+~~~
+
+#### 실행결과
+
+> THREE_HOURS <br>
+18000
+
+매개 변수로 넘긴 enum 값이 THREE_HOURS 로 출력된 것을 알 수있다. <br>
+그렇다고 해서 THREE_HOURS 라는 문자열 값을 getOverTimeAmount() 메소드에 매개 변수로 넘기면 당연히 컴파일 되지 않는다. <br>
+출력한 값이 저렇게 나오는 것이다.
+
+**Q.** 굳이 enum타입을 switch로 확인해야 되나? 선언할 때 상수로 지정할 수없나? <br>
+**A.** enum 상수 값을 지정하는 것은 가능하지만 동적으로 할당하는 것은 불가능하다.
+
+~~~java
+public enum OverTimeValues2 {
+    THREE_HOUR(18000),
+    FIVE_HOUR(30000),
+    WEEKEND_FOUR_HOUR(40000),
+    WEEKEND_EIGHT_HOUR(60000);
+    private final int amount;
+
+    OverTimeValues2(int amount) {
+        this.amount = amount;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+}
+~~~
+
+#### 실행결과
+
+>FIVE_HOUR <br>
+30000
+
+---
+### 정리해 봅시다.
 

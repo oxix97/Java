@@ -21,8 +21,8 @@ public class ExceptionEx {
     }
 
     public void checkVariable() {
+        int[] arr = new int[5];
         try {
-            int[] arr = new int[5];
             System.out.println(arr[5]);
         } catch (Exception e) {
             System.out.println(arr.length);
@@ -30,8 +30,19 @@ public class ExceptionEx {
         System.out.println("finish");
     }
 
+    public void multiCatch() {
+        int[] arr = new int[5];
+        try {
+            System.out.println(arr[5]);
+        }catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException");
+        }catch (Exception e) {
+            System.out.println("Exception");
+        }
+    }
+
     public static void main(String[] args) {
         ExceptionEx ex = new ExceptionEx();
-        ex.checkVariable();
+        ex.multiCatch();
     }
 }

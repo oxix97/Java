@@ -258,3 +258,15 @@ You/know/I/can/paint/the/world/sitting/there/in/black/and/gold <br>
 You/know I can paint the world sitting there in black and gold
 
 ---
+### 정리해봅시다.
+
+- 자바의 String 클래스는 final 로 선언되어 있으며, 확장이 불가하다.
+- String 클래스의 getBytes()는 문자의 바이트 배열로 전환한다.
+- String 객체의 메소드를 확인하기 전에 null check 를 해야하는 습관을 가져야한다.
+- length() 메소드는 문자열의 길이를 알 수 있다.
+- equals, compareTo 공통점은 두 개의 문자열을 비교한다는 것이며, 다른점은 리턴 타입이 boolean, int 타입이기 때문에 쓰임새가 다르다.
+- startsWith() 메소드를 사용하면 해당 문자열로 시작하는지 확인가능하며 , endsWith() 메소드는 해당 문자열로 마치는지 확인가능하다.
+- contains(), matches() 메소드는 해당 문자열이 포함되는지 확인가능하다
+- substring(), subSequence() 메소드를 사용하면 문자열을 자를 수 있다.
+- replace(), replaceAll() 메소드를 사용하면 문자열의 특정 부분 변경 가능하지만, 기존 문자열은 변경되지 않아 변경한 값을 사용하려면 리턴값을 사용해야 한다.
+

@@ -49,6 +49,11 @@
    - [Exception -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Exception/src/Calculator.java)
   
   
-- [volume1 -> String](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.1.md)
-    - []()
+- [volume1 -> String_part.1](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.1.md)
+- [volume1 -> String_part.2](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.2.md)
+- [volume1 -> String_part.3](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.3.md)  
+    - [String -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/practice/UseStringMethods.java)
+    
+
+
     

@@ -61,7 +61,7 @@
     
 
 - [volume1 -> NestedClass](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/NestedClass/src/NestedClass.md)
-    - [NestedClass -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/NestedClass/src/practice_14/Mypage.class)
+    - [NestedClass -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/NestedClass/src/practice_14/MyPage.java)
     
 
     

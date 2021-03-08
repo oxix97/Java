@@ -28,6 +28,7 @@
    
  - [volume1 -> 패키지](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Package/src/패키지.md)
     - [패키지 -> 직접해봅시다.](https://github.com/oxix97/Java/tree/master/자바의신/Volume1/Package/src/goodjava/b)
+    
    
  - [volume1 -> 상속](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/Inheritance/src/상속.md)
     - [상속 -> 직접해봅시다.](https://github.com/oxix97/Java/tree/master/자바의신/Volume1/Inheritance/src)
@@ -50,10 +51,11 @@
   
   
 - [volume1 -> String_part.1](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.1.md)
+  
+
 - [volume1 -> String_part.2](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.2.md)
-- [volume1 -> String_part.3](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.3.md)  
+  
+
+- [volume1 -> String_part.3](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/String_part.3.md)
     - [String -> 직접해봅시다.](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/String/src/practice/UseStringMethods.java)
-    
-
-
     

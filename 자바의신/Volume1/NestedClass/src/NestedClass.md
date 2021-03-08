@@ -161,3 +161,10 @@ Button Clicked
 이러한 현상을 조금이라도 줄이고자 간단한 방법으로 객체 생성할 수 있도록 해놓았으며 줄일 수 있으면 줄이는 것이 좋다.
 
 ---
+### 정리해봅시다.
+
+- Nested 클래스의 3가지는 Static nested, Inner , Anonymous Inner
+- Nested 클래스를 컴파일 하면 Nested 클래스 파일의 이름은 $ 으로 시작한다.
+- Static Nested 클래스와 다른 Nested 클래스의 차이 static 선언 유무
+- StaticNested 클래스 객체 생성은 Outer.Inner = new Outer.Inner();
+- 일반적인 내부 클래스 생성 방법은 내부 클래스를 감싸고 있는 클래스의 객체를 생성한 다음 그 객체를 통해 내부 클래스 객체를 만들 수 있다.

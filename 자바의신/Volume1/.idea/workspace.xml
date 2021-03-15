@@ -1,78 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94e03092-f35a-4cd0-96a5-eca8fdd02c4b" name="Default Changelist" comment="실습 문제">
+    <list default="true" id="94e03092-f35a-4cd0-96a5-eca8fdd02c4b" name="Default Changelist" comment="정리">
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/Api.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/BigDecimal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/out/production/API/img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/out/production/Array/ManageHeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/out/production/Array/배열.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Condition/out/production/Condition/InterestManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Condition/out/production/Condition/TESTME.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Condition/out/production/Condition/TM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Condition/out/production/Condition/조건.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/ChildCasting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/ChildOverriding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/Inheritance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/InheritanceCasting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/InherittanceOverriding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/ParentCasting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/ParentOverriding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/out/production/Inheritance/상속.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/FinalClassChild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/FinalReferenceType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/FinalVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/HealthInsurance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/Interface.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/InterfaceEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/ManageStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/MemberDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/MemberManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/MemberManagerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/MemberManagerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/OverTimeManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/OverTimeManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/OverTimeValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/OverTimeValues2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/list/AbstractList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_abstract/out/production/Interface_abstract/list/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/ManageStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/MemberDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/Object클래스.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/Profile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/ToString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/out/production/ObjectOrientedLanguage/객체란??.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operator/out/production/Operator/OperatorClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operator/out/production/Operator/SalaryCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operator/out/production/Operator/SalaryManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operator/out/production/Operator/연산자.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReferenceType/out/production/ReferenceType/ManageStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReferenceType/out/production/ReferenceType/ReferenceString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReferenceType/out/production/ReferenceType/StaticBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReferenceType/out/production/ReferenceType/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReferenceType/out/production/ReferenceType/참조자료형.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/ProfilePrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variable/out/production/Variable/변수.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615814168690</updated>
       <workItem from="1615814169837" duration="6800000" />
-      <workItem from="1615823559690" duration="3887000" />
+      <workItem from="1615823559690" duration="3916000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615814304477</created>
@@ -197,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615826039209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="정리">
+      <created>1615827463481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615827463481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="정리">
+      <created>1615827472802</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615827472802</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,8 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <MESSAGE value="정리" />
     <MESSAGE value="실습 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="실습 문제" />
+    <MESSAGE value="정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="정리" />
   </component>
 </project>

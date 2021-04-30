@@ -73,4 +73,5 @@
 ---
 ### 자바의 신_volume2
 
-- [volume2 -> java.lang]()
+- [volume2 -> JVM](https://github.com/oxix97/Java/tree/master/%EC%9E%90%EB%B0%94%EC%9D%98%EC%8B%A0/Volume2/src/JVM)
+- [volume2 -> java.lang](https://github.com/oxix97/Java/blob/master/%EC%9E%90%EB%B0%94%EC%9D%98%EC%8B%A0/Volume2/src/JavaLang/java.lang.md)

@@ -3,7 +3,7 @@
 ### 자바의 신_volume1
 
  - [volume1 -> 객체란?](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/src/Object/src/객체란%3F%3F.md)
-   - [객체란? 직접해봅시다]()
+   - [객체란? 직접해봅시다](https://github.com/oxix97/Java/blob/master/%EC%9E%90%EB%B0%94%EC%9D%98%EC%8B%A0/Volume1/src/Object/src/Profile.java)
    
     
  - [volume1 -> 변수](https://github.com/oxix97/Java/blob/master/자바의신/Volume1/src/Variable/src/변수.md)

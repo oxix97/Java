@@ -12,6 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Vector;
 
 public class FriendsDBGUIFrame extends JFrame implements ActionListener, MouseListener {
@@ -35,15 +36,15 @@ public class FriendsDBGUIFrame extends JFrame implements ActionListener, MouseLi
     public FriendsDBGUIFrame() throws SQLException {
         con = ConnectFriendDB.makeConnection();
         ConnectFriendDB.createTable(con, dbTableName);
-        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655040, "컴공", "이종찬", "010-6206-1416");
-        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655041, "컴공", "이종", "010-1234-1416");
-        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655042, "컴공", "이", "010-5678-1416");
+//        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655040, "컴공", "이종찬", "010-6206-1416");
+//        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655041, "컴공", "이종", "010-1234-1416");
+//        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655033, "컴공", "이", "010-5678-1416");
+//        ConnectFriendDB.insertDataOnTable(con, dbTableName, 201655042, "comp", "LEE", "010-5678-1416");
 //        ArrayList<String> list = ConnectFriendDB.getDataFromTable(con,dbTableName);
 //        ConnectFriendDB.printList(list);
 
-//        Vector<String> list2 = ConnectFriendDB.getDataFromTable2(con, dbTableName);
-//        ConnectFriendDB.printList2(list2);
-
+        Vector<String> list2 = ConnectFriendDB.getDataFromTable2(con, dbTableName);
+        ConnectFriendDB.printList2(list2);
         this.setTitle("Friends DB GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500, 400);
@@ -103,8 +104,65 @@ public class FriendsDBGUIFrame extends JFrame implements ActionListener, MouseLi
     }
 
     @Override
-    public void actionPerformed(ActionEvent actionEvent) {
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btn[0]) {   // 삽입 버튼 ...
+            int std_id = Integer.parseInt(tf[0].getText());
+            String dept = tf[1].getText();
+            String name = tf[2].getText();
+            String phone = tf[3].getText();
 
+            ConnectFriendDB.insertDataOnTable(con, dbTableName, std_id, dept, name, phone);
+            System.out.println("insert (actionPerformed) OK");
+            result.clear();
+            try {
+                result = selectFromDB(con, dbTableName);
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+            model.setDataVector(result, title);
+            resetText();
+
+        } else if (e.getSource() == btn[1]) {
+            //delete
+            int std_id = Integer.parseInt(tf[0].getText());
+            ConnectFriendDB.deleteFromTable(con, dbTableName, std_id);
+            result.clear();
+            try {
+                result = selectFromDB(con, dbTableName);
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+            model.setDataVector(result, title);
+            resetText();
+
+        } else if (e.getSource() == btn[2]) {
+            //update
+            int std_id = Integer.parseInt(tf[0].getText());
+            String dept = tf[1].getText();
+            String name = tf[2].getText();
+            String phone = tf[3].getText();
+            try {
+                ConnectFriendDB.updateDataOnTable(con, dbTableName, std_id, dept, name, phone);
+                System.out.println("update (actionPerformed) OK");
+                result.clear();
+                result = selectFromDB(con, dbTableName);
+                model.setDataVector(result, title);
+            } catch (SQLException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+                System.out.println("update (actionPerformed) ERROR");
+            }
+        } else if (e.getSource() == btn[3]) {
+            resetText();
+        } else {
+            System.out.println("Invalid value");
+        }
+    }
+
+    public void resetText() {
+        for (JTextField text : tf) {
+            text.setText("");
+        }
     }
 
     @Override
@@ -121,8 +179,7 @@ public class FriendsDBGUIFrame extends JFrame implements ActionListener, MouseLi
         tf[1].setText(dept);
         tf[2].setText(name);
         tf[3].setText(phone);
-
-
+        System.out.println(dept);
     }
 
     @Override

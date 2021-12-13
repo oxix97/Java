@@ -133,7 +133,8 @@ public class ConnectFriendDB {
 //    }
 
     public static void insertDataOnTable(Connection con, String dbTableName, int std_id, String dept, String name, String phone) {
-        String insertTableSQL = "REPLACE INTO " + dbTableName + "(std_id, dept, name, phone) values (?,?,?,?);";
+        String insertTableSQL =
+                "REPLACE INTO " + dbTableName + "(std_id, dept, name, phone) values (?,?,?,?);";
         //미완성
 
         try {
@@ -162,10 +163,14 @@ public class ConnectFriendDB {
                 "name varchar(50), " +
                 "phone varchar(15), " +
                 "UNIQUE INDEX (std_id), " + // 중복 삽입을 방지
-                "primary key(std_id) ) default charset=utf8;";
+                "primary key(std_id) ) default charset = utf8mb4;";
+//        String testSQL = "ALTER database " + dbTableName + " default character set UTF8;";
+
         try {
             PreparedStatement createTable = con.prepareStatement(createTableSQL);
+//            PreparedStatement alterTable = con.prepareStatement(testSQL);
             createTable.executeUpdate();
+//            alterTable.executeUpdate();
             System.out.println("create table (" + dbTableName + ") ok !!!");
         } catch (SQLException e) {
             e.printStackTrace();
@@ -177,7 +182,7 @@ public class ConnectFriendDB {
         String driver = "com.mysql.cj.jdbc.Driver";
         String hostName = "sql6.freemysqlhosting.net";
         String databaseName = "sql6448156";
-        String url = "jdbc:mysql://" + hostName + ":3306/" + databaseName;
+        String url = "jdbc:mysql://" + hostName + ":3306/" + databaseName + "?characterEncoding=UTF-8&&autoReconnect=true";
         // jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6448156에 접속한다는 내용
         String userName = "sql6448156";
         String password = "Tec5ucNzLn";
@@ -209,6 +214,28 @@ public class ConnectFriendDB {
         }
     }
 
+    public static void updateDataOnTable(Connection con, String dbTableName, int std_id, String dept, String name, String phone) throws SQLException {
+        // TODO Auto-generated method stub
+        String updateTableSQL = "UPDATE " + dbTableName + " SET dept = ?, name = ?, phone = ?  WHERE  std_id = ? ;";
+        try {
+            PreparedStatement updateTable = con.prepareStatement(updateTableSQL);
+
+            updateTable.setString(1, dept);       //  '김철수'
+            updateTable.setString(2, name);
+            updateTable.setString(3, phone);
+            updateTable.setInt(4, std_id);        //
+
+            updateTable.executeUpdate();
+            System.out.println("Insert SQL (Using pstmt) OK!!!");
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            System.out.println("Insert SQL (Using pstmt) ERROR!!!");
+        }
+
+
+    }
+}
 //    public static void deleteFromTable2(Connection con, String dbTableFieldName, String data) {
 //        PreparedStatement statement;
 //        String deleteSQL = "delete from books202058000 where std_id = ? ;";
@@ -237,4 +264,3 @@ public class ConnectFriendDB {
 //            System.out.println("delete " + data + " record SQL error!!!");
 //        }
 //    }
-}
